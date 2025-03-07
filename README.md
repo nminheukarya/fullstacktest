@@ -431,7 +431,7 @@ Code Readability  | Clean component logic, well-commented code.  | 3
    
 # DevOps Engineer (100 points)  
 ## 20 Multi choice questions, 60 min (40 points)  
-1. GitLab CI/CD (3 Questions)  
+#### GitLab CI/CD (3 Questions)  
 1. In GitLab CI/CD, which file defines the pipeline configuration?  
 A) .gitlab-config.yml  
 B) .gitlab-ci.yml  
@@ -447,7 +447,7 @@ D) To deploy applications automatically
 3. True or False: GitLab CI/CD only supports Docker-based jobs.  
 ✅ Correct Answer: False (GitLab CI/CD supports multiple executors, including Shell, Kubernetes, and Virtual Machines.)  
   
-2. Scaling Services (3 Questions)  
+#### Scaling Services (3 Questions)  
 4. What is horizontal scaling?  
 A) Adding more powerful hardware to existing servers  
 B) Increasing the memory of a single server  
@@ -463,7 +463,7 @@ D) VPN
 6. True or False: Vertical scaling is generally more cost-efficient than horizontal scaling for handling high traffic.  
 ✅ Correct Answer: False (Horizontal scaling is often preferred for high availability and fault tolerance.)  
   
-3. Basic Cloud Operations (3 Questions)  
+#### Basic Cloud Operations (3 Questions)  
 7. Which cloud service model provides only the basic infrastructure (compute, storage, networking), leaving OS and runtime management to the user?  
 A) SaaS  
 B) PaaS  
@@ -479,7 +479,7 @@ D) Ensures complete data security
 9. True or False: Cloud elasticity automatically adjusts resources based on demand, whereas cloud scalability requires manual intervention.  
 ✅ Correct Answer: True  
   
-4. Networking (3 Questions)  
+#### Networking (3 Questions)  
 10. What does a reverse proxy do?  
 A) Routes traffic from the internet to internal servers  
 B) Blocks unauthorized network access  
@@ -495,7 +495,7 @@ D) DNS
 12. True or False: A Content Delivery Network (CDN) improves website performance by caching static content closer to users.  
 ✅ Correct Answer: True  
   
-5. Basic AI (3 Questions)  
+#### Basic AI (3 Questions)  
 13. What is the main purpose of a machine learning model?  
 A) To store large amounts of structured data  
 B) To automatically detect patterns and make predictions  
@@ -511,7 +511,7 @@ D) A self-driving car navigating unknown roads
 15. True or False: Neural networks are inspired by the structure of the human brain.  
 ✅ Correct Answer: True  
   
-6. Security (3 Questions)  
+#### Security (3 Questions)  
 16. What is multi-factor authentication (MFA)?  
 A) Using a long and complex password  
 B) A security method requiring two or more forms of verification  
@@ -527,7 +527,7 @@ D) Phishing
 18. True or False: A Zero Trust security model assumes that all network traffic inside an organization is safe.  
 ✅ Correct Answer: False (Zero Trust requires continuous verification of all users and devices, even within an internal network.)  
   
-7. Containerization (3 Questions)  
+#### Containerization (3 Questions)  
 19. What is the primary advantage of using Docker containers over traditional virtual machines?  
 A) Containers use more system resources  
 B) Containers run directly on the host OS without requiring a full OS  
