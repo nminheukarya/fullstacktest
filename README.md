@@ -143,13 +143,11 @@ D) Horizontal scaling is always easier than vertical scaling
 # System architecture design  
 (2 Open-Ended questions, 45 min, 40 points)  
   
-Problem 1: Design a Scalable Live Chat Application  
+### Problem 1: Design a Scalable Live Chat Application  
 💡 Scenario:  
 Your company wants to build a real-time live chat application where:  
-Users can send and receive messages instantly.  
-The system should support 1 million concurrent users.  
-Authentication should be secure and scalable.  
-Messages should be persisted for later retrieval.  
+Users can send and receive messages instantly.  The system should support 1 million concurrent users.  
+Authentication should be secure and scalable.  Messages should be persisted for later retrieval.  
 The architecture should handle high traffic spikes efficiently.  
   
 Key Considerations to check:  
@@ -162,14 +160,12 @@ Database Choice: What database(s) will store the messages?
 Rate Limiting: How will spam/malicious messages be prevented?  
 CORS Considerations: How will cross-origin access be handled?  
   
-Problem 2: Design a High-Performance E-Commerce API  
+### Problem 2: Design a High-Performance E-Commerce API  
 💡 Scenario:  
 Your company is launching a new e-commerce platform where:  
 Users can browse products, add items to carts, and complete purchases.  
-The system should handle 10,000 requests per second.  
-Authentication should be secure and allow third-party integrations.  
-Product data should be fetched quickly for a smooth user experience.  
-The system should be highly available with minimal downtime.  
+The system should handle 10,000 requests per second.  Authentication should be secure and allow third-party integrations.  
+Product data should be fetched quickly for a smooth user experience.  The system should be highly available with minimal downtime.  
   
 Key Considerations to check:  
 Microservices vs Monolithic: Which approach is better and why?  
@@ -184,8 +180,9 @@ Horizontal Scaling: How will you ensure the system scales to millions of users?
 How to Evaluate the User’s Solution (Max Value: 20)  
 You can assess their response based on the following criteria:  
   
-Category |  Criteria to Check |  Max Points 
-Scalability | Can the system handle high user traffic efficiently? | 3  
+| Category |  Criteria to Check |  Max Points 
+|--------------|---------------------------------------------|------------|
+| Scalability | Can the system handle high user traffic efficiently? | 3  
 Load Balancing | Are load balancers used properly to distribute traffic? | 2  
 WebSockets (Chat App) | Does the candidate understand real-time communication? | 2  
 Microservices vs Monolith | Is the architecture choice justified with trade-offs? | 2  
