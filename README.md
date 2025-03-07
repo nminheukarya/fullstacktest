@@ -429,3 +429,164 @@ Code Readability  | Clean component logic, well-commented code.  | 3
      
      
    
+# DevOps Engineer (100 points)  
+## 20 Multi choice questions, 60 min (40 points)  
+1. GitLab CI/CD (3 Questions)  
+1. In GitLab CI/CD, which file defines the pipeline configuration?  
+A) .gitlab-config.yml  
+B) .gitlab-ci.yml  
+C) gitlab-pipeline.yaml  
+D) .ci-config.yml  
+✅ Correct Answer: B) .gitlab-ci.yml  
+2. What is the role of GitLab Runners?  
+A) To store pipeline artifacts  
+B) To execute jobs in a CI/CD pipeline  
+C) To manage Git repositories  
+D) To deploy applications automatically  
+✅ Correct Answer: B) To execute jobs in a CI/CD pipeline  
+3. True or False: GitLab CI/CD only supports Docker-based jobs.  
+✅ Correct Answer: False (GitLab CI/CD supports multiple executors, including Shell, Kubernetes, and Virtual Machines.)  
+  
+2. Scaling Services (3 Questions)  
+4. What is horizontal scaling?  
+A) Adding more powerful hardware to existing servers  
+B) Increasing the memory of a single server  
+C) Adding more servers to distribute the load  
+D) Reducing the number of servers to save costs  
+✅ Correct Answer: C) Adding more servers to distribute the load  
+5. Which component helps distribute traffic across multiple instances in a scaled system?  
+A) Firewall  
+B) Load Balancer  
+C) Reverse Proxy  
+D) VPN  
+✅ Correct Answer: B) Load Balancer  
+6. True or False: Vertical scaling is generally more cost-efficient than horizontal scaling for handling high traffic.  
+✅ Correct Answer: False (Horizontal scaling is often preferred for high availability and fault tolerance.)  
+  
+3. Basic Cloud Operations (3 Questions)  
+7. Which cloud service model provides only the basic infrastructure (compute, storage, networking), leaving OS and runtime management to the user?  
+A) SaaS  
+B) PaaS  
+C) IaaS  
+D) FaaS  
+✅ Correct Answer: C) IaaS  
+8. What is the main benefit of using Infrastructure as Code (IaC) in cloud environments?  
+A) Reduces server costs  
+B) Allows automated provisioning and consistency  
+C) Removes the need for system administrators  
+D) Ensures complete data security  
+✅ Correct Answer: B) Allows automated provisioning and consistency  
+9. True or False: Cloud elasticity automatically adjusts resources based on demand, whereas cloud scalability requires manual intervention.  
+✅ Correct Answer: True  
+  
+4. Networking (3 Questions)  
+10. What does a reverse proxy do?  
+A) Routes traffic from the internet to internal servers  
+B) Blocks unauthorized network access  
+C) Directs traffic between internal network devices  
+D) Encrypts traffic between two locations  
+✅ Correct Answer: A) Routes traffic from the internet to internal servers  
+11. Which protocol is used for secure remote server access?  
+A) HTTP  
+B) FTP  
+C) SSH  
+D) DNS  
+✅ Correct Answer: C) SSH  
+12. True or False: A Content Delivery Network (CDN) improves website performance by caching static content closer to users.  
+✅ Correct Answer: True  
+  
+5. Basic AI (3 Questions)  
+13. What is the main purpose of a machine learning model?  
+A) To store large amounts of structured data  
+B) To automatically detect patterns and make predictions  
+C) To manually process complex calculations  
+D) To replace all human decision-making  
+✅ Correct Answer: B) To automatically detect patterns and make predictions  
+14. Which of the following is an example of supervised learning?  
+A) A system that recommends products based on past purchases  
+B) A chatbot that learns responses from user interactions without labeled data  
+C) A spam filter trained on emails labeled as "spam" or "not spam"  
+D) A self-driving car navigating unknown roads  
+✅ Correct Answer: C) A spam filter trained on emails labeled as "spam" or "not spam"  
+15. True or False: Neural networks are inspired by the structure of the human brain.  
+✅ Correct Answer: True  
+  
+6. Security (3 Questions)  
+16. What is multi-factor authentication (MFA)?  
+A) Using a long and complex password  
+B) A security method requiring two or more forms of verification  
+C) Encrypting all user data before transmission  
+D) A firewall rule blocking unauthorized traffic  
+✅ Correct Answer: B) A security method requiring two or more forms of verification  
+17. Which type of attack exploits vulnerabilities in SQL queries?  
+A) Cross-Site Scripting (XSS)  
+B) Denial of Service (DoS)  
+C) SQL Injection  
+D) Phishing  
+✅ Correct Answer: C) SQL Injection  
+18. True or False: A Zero Trust security model assumes that all network traffic inside an organization is safe.  
+✅ Correct Answer: False (Zero Trust requires continuous verification of all users and devices, even within an internal network.)  
+  
+7. Containerization (3 Questions)  
+19. What is the primary advantage of using Docker containers over traditional virtual machines?  
+A) Containers use more system resources  
+B) Containers run directly on the host OS without requiring a full OS  
+C) Virtual machines are faster than containers  
+D) Containers require hardware-level virtualization  
+✅ Correct Answer: B) Containers run directly on the host OS without requiring a full OS  
+20. True or False: Kubernetes is a tool designed to orchestrate and manage multiple containers efficiently.  
+✅ Correct Answer: True  
+  
+## 2 Open-ended questions, 60 min (60 points)  
+### 1. Question: Designing a Scalable and Secure CI/CD Pipeline  
+💡 "Your company is developing a microservices-based application using GitLab CI/CD, Docker, and Kubernetes. You need to set up a CI/CD pipeline that ensures high availability, security, and fast deployments. How would you design this pipeline? Explain the technologies you would use and how they interact."  
+Scalability of the CI/CD Pipeline: How would you ensure that your CI/CD pipeline can scale as the project grows in terms of multiple microservices, high-volume builds, and multiple developers? (Hint: Consider using tools like GitLab CI, Jenkins, or GitHub Actions for pipeline management. Think about how you would distribute workload using runners, agents, or parallel jobs.)  
+Security Best Practices for CI/CD: How would you ensure that the CI/CD pipeline is secure from potential threats, such as credential leaks, malicious code injection, or unauthorized access? (Hint: Think about secret management, access controls, code scanning, and container security.)  
+Integration with Version Control and Testing: How would you set up the pipeline to ensure that every commit is automatically tested and validated before deployment? (Hint: Consider automated unit, integration, and end-to-end testing stages. Use testing frameworks and integration with version control like Git.)  
+Deployment Strategy for Staging and Production: How would you handle the deployment process to staging and production? (Hint: Look into Blue/Green deployment, Canary deployments, or rolling updates to minimize downtime and risks during deployment.)  
+  
+#### Scoring Milestones (Max 20 Points):  
+✅ 15-20 Points:  
+Clearly explains GitLab CI/CD pipeline structure (stages: build, test, deploy).  
+Uses GitLab Runners effectively with Docker/Kubernetes.  
+Implements security measures (e.g., Secrets management, IAM roles, image scanning).  
+Uses Horizontal Scaling and Load Balancers for high availability.  
+Describes rollback and monitoring strategies (e.g., Prometheus, Grafana, ArgoCD).  
+✅ 10-14 Points:  
+Covers most pipeline stages but lacks details on scaling/security.  
+Uses Docker and Kubernetes but doesn’t fully optimize resource management.  
+Mentions some security aspects (e.g., container scanning), but lacks depth.  
+✅ 5-9 Points:  
+Basic pipeline structure without strong CI/CD automation.  
+Minimal or no mention of security and scaling strategies.  
+✅ 1-4 Points:  
+Generic explanation without linking technologies properly.  
+  
+### 2. Question:  
+💡 "You are part of a DevOps team building a private cloud infrastructure to support a SaaS and IaaS platform. Since you cannot use public cloud providers like AWS or Azure, you need to design and manage your own compute, storage, and networking infrastructure. Describe your approach to:  
+Compute Resource Management: How would you efficiently manage hardware, virtualization, and containerization? (Hint: Consider using virtualization tools like Proxmox, KVM, or VMware. Think about how you would allocate resources dynamically.)  
+Networking & Traffic Handling: How would you design a secure, scalable network with routing, firewalls, and load balancing? (Hint: Consider VLANs, subnets, NAT, and self-hosted load balancers like HAProxy or NGINX.)  
+Storage & Data Redundancy: How would you ensure scalable, redundant, and high-performance storage? (Hint: Think about distributed storage solutions like Ceph or GlusterFS and backup strategies.)  
+Monitoring & Security: How would you monitor system health and implement security best practices? (Hint: Self-hosted monitoring tools like Prometheus or Zabbix, access control, firewalls, and intrusion detection tools.)  
+  
+#### Scoring Milestones (Max 20 Points):  
+✅ 15-20 Points (Excellent Answer):  
+Compute: Uses bare-metal servers or virtualization (Proxmox, KVM, VMware) and implements containerization (Docker, Podman) with orchestration (Nomad, OpenStack, custom solutions).  
+Networking: Designs subnet segmentation, VLANs, routing policies, and load balancing (HAProxy, NGINX, Keepalived) with proper firewall rules.  
+Storage: Implements distributed storage (Ceph, GlusterFS, RAID, or SAN) and defines backup strategies (incremental snapshots, offsite replication).  
+Monitoring & Security: Uses self-hosted monitoring (Prometheus, Zabbix, Nagios) and strong security measures (firewall policies, access controls, IDS/IPS like Suricata, Fail2ban).  
+✅ 10-14 Points (Good Answer, Some Gaps):  
+Covers compute, networking, and storage, but lacks depth in scalability or security strategies.  
+Implements basic network segmentation and a firewall but lacks high availability.  
+Mentions storage solutions but lacks detailed backup and redundancy planning.  
+Some security considerations but lacks detailed authentication and access control strategy.  
+✅ 5-9 Points (Basic Understanding):  
+Mentions virtualization but lacks depth on resource allocation or orchestration.  
+Has a basic networking setup but does not address routing, security, or redundancy.  
+Mentions storage but lacks redundancy or scalability considerations.  
+Limited monitoring and security strategies.  
+✅ 1-4 Points (Weak Answer):  
+No clear plan for compute, networking, or storage.  
+No redundancy or high-availability strategy.  
+No security or monitoring considerations.  
+  
