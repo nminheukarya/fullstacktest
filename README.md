@@ -4,7 +4,6 @@
 1. Load Balancer: Key Benefits  
 (Multi-Choice)  
 Which of the following are key benefits of using a Load Balancer?
-
 A) Distributes traffic evenly across multiple servers  
 B) Improves application fault tolerance  
 C) Ensures that all requests are handled by a single server  
