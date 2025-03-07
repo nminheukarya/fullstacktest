@@ -1,7 +1,7 @@
 ## PM & Engineer (100 Points)  
- (15 Multi choice, True/False questions, 45 min, 60 points)  
+# (15 Multi choice, True/False questions, 45 min, 60 points)  
   
-# 1. Load Balancer: Key Benefits  
+1. Load Balancer: Key Benefits  
 (Multi-Choice)  
 Which of the following are key benefits of using a Load Balancer?
 
